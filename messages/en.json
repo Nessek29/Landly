@@ -3,14 +3,82 @@
     "title": "Landly",
     "description": "A gentler welcome to Canada. Your first 90 days, organized."
   },
-  "HomePage": {
-    "logoAlt": "Landly logo",
-    "tagline": "A gentler welcome to Canada. Your first 90 days, organized.",
-    "getStarted": "Get started"
+  "Header": {
+    "wordmark": "Landly"
   },
   "LanguageSwitcher": {
     "label": "Choose language",
     "en": "English",
     "fr": "Français"
+  },
+  "Hero": {
+    "title": "A gentler welcome to Canada.",
+    "tagline": "Your first 90 days, organized. One clear step at a time, in your language.",
+    "getStarted": "Get started",
+    "languageNames": {
+      "en": "English",
+      "fr": "Français",
+      "ar": "العربية",
+      "es": "Español"
+    }
+  },
+  "WelcomeCard": {
+    "label": "Example of a personal Landly plan",
+    "greeting": "Welcome, {name}",
+    "day": "Day {day} of {total}",
+    "progressLabel": "Your progress",
+    "percent": "{percent}%",
+    "done": "Done",
+    "toDo": "To do",
+    "tasks": {
+      "sin": "Apply for SIN",
+      "healthCard": "Apply for Ontario Health Card",
+      "settlementHub": "Find a nearby settlement hub"
+    }
+  },
+  "WhyLandly": {
+    "title": "Why Landly",
+    "subtitle": "Settling in is a lot. We make it a little lighter.",
+    "cards": {
+      "timeline": {
+        "title": "Timeline-based clarity",
+        "body": "Know what to do this week, this month and by day 90."
+      },
+      "language": {
+        "title": "Language comfort",
+        "body": "Read every step in the language you know best."
+      },
+      "verified": {
+        "title": "Verified connections",
+        "body": "Find trusted services and settlement hubs near you."
+      }
+    }
+  },
+  "HowItWorks": {
+    "title": "How it works",
+    "subtitle": "Four small steps, one gentle path.",
+    "steps": {
+      "language": {
+        "title": "Set your language",
+        "body": "Choose the language you feel most at home in."
+      },
+      "situation": {
+        "title": "Share your situation",
+        "body": "Answer a few simple questions about you and your needs."
+      },
+      "plan": {
+        "title": "Get your plan",
+        "body": "See a clear, step-by-step plan for your first 90 days."
+      },
+      "action": {
+        "title": "Take action and track",
+        "body": "Check off tasks and see how far you have come."
+      }
+    }
+  },
+  "ClosingBand": {
+    "title": "Ready for a gentler start?",
+    "body": "Your first 90 days begin with one small step.",
+    "getStarted": "Get started"
   }
 }

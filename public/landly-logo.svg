@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-110 -112 220 220" width="512" height="512" role="img" aria-labelledby="t d">
+  <title id="t">Landly logo</title>
+  <desc id="d">A deep red maple leaf with a house cut out of its center and a green pathway curving from the door out through the stem.</desc>
+  <path fill="#A32A2A" fill-rule="evenodd" d="M0,-100 L14,-66 L30,-72 L26,-36 L58,-56 L50,-22 L96,-12 L70,18 L84,40 L36,32 L8,38 L6,60 L-6,60 L-8,38 L-36,32 L-84,40 L-70,18 L-96,-12 L-50,-22 L-58,-56 L-26,-36 L-30,-72 L-14,-66 Z M0,-32 L34,-2 L26,-2 L26,24 L-26,24 L-26,-2 L-34,-2 Z"/>
+  <rect x="-6" y="6" width="12" height="18" fill="#A32A2A"/>
+  <path d="M0 24 C-14 44 14 60 0 92" fill="none" stroke="#1E9E6A" stroke-width="8" stroke-linecap="round"/>
+</svg>

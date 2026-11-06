@@ -3,14 +3,82 @@
     "title": "Landly",
     "description": "Un accueil plus doux au Canada. Vos 90 premiers jours, bien organisés."
   },
-  "HomePage": {
-    "logoAlt": "Logo de Landly",
-    "tagline": "Un accueil plus doux au Canada. Vos 90 premiers jours, bien organisés.",
-    "getStarted": "Commencer"
+  "Header": {
+    "wordmark": "Landly"
   },
   "LanguageSwitcher": {
     "label": "Choisir la langue",
     "en": "English",
     "fr": "Français"
+  },
+  "Hero": {
+    "title": "Un accueil plus doux au Canada.",
+    "tagline": "Vos 90 premiers jours, bien organisés. Une étape claire à la fois, dans votre langue.",
+    "getStarted": "Commencer",
+    "languageNames": {
+      "en": "English",
+      "fr": "Français",
+      "ar": "العربية",
+      "es": "Español"
+    }
+  },
+  "WelcomeCard": {
+    "label": "Exemple de plan Landly personnalisé",
+    "greeting": "Bienvenue, {name}",
+    "day": "Jour {day} sur {total}",
+    "progressLabel": "Votre progression",
+    "percent": "{percent} %",
+    "done": "Fait",
+    "toDo": "À faire",
+    "tasks": {
+      "sin": "Demander un NAS",
+      "healthCard": "Demander la carte Santé de l’Ontario",
+      "settlementHub": "Trouver un organisme d’établissement près de chez vous"
+    }
+  },
+  "WhyLandly": {
+    "title": "Pourquoi Landly",
+    "subtitle": "S’installer demande beaucoup. Nous allégeons un peu le chemin.",
+    "cards": {
+      "timeline": {
+        "title": "Un calendrier clair",
+        "body": "Sachez quoi faire cette semaine, ce mois-ci et d’ici le jour 90."
+      },
+      "language": {
+        "title": "Le confort de votre langue",
+        "body": "Lisez chaque étape dans la langue que vous connaissez le mieux."
+      },
+      "verified": {
+        "title": "Des ressources vérifiées",
+        "body": "Trouvez des services fiables et des organismes d’établissement près de chez vous."
+      }
+    }
+  },
+  "HowItWorks": {
+    "title": "Comment ça marche",
+    "subtitle": "Quatre petites étapes, un chemin en douceur.",
+    "steps": {
+      "language": {
+        "title": "Choisissez votre langue",
+        "body": "Choisissez la langue dans laquelle vous êtes le plus à l’aise."
+      },
+      "situation": {
+        "title": "Parlez-nous de votre situation",
+        "body": "Répondez à quelques questions simples sur vous et vos besoins."
+      },
+      "plan": {
+        "title": "Recevez votre plan",
+        "body": "Voyez un plan clair, étape par étape, pour vos 90 premiers jours."
+      },
+      "action": {
+        "title": "Agissez et suivez vos progrès",
+        "body": "Cochez vos tâches et voyez le chemin parcouru."
+      }
+    }
+  },
+  "ClosingBand": {
+    "title": "Envie d’un départ plus doux ?",
+    "body": "Vos 90 premiers jours commencent par un petit pas.",
+    "getStarted": "Commencer"
   }
 }

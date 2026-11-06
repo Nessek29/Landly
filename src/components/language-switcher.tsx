@@ -5,7 +5,7 @@ import { Link, usePathname } from "@/i18n/navigation";
 import { routing } from "@/i18n/routing";
 import { cn } from "@/lib/utils";
 
-// Shows one link per language. Clicking a link keeps you on the same page
+// A pill with one link per language. Clicking a link keeps you on the same page
 // but in the other language (e.g. /en -> /fr).
 export function LanguageSwitcher() {
   const t = useTranslations("LanguageSwitcher");
@@ -14,7 +14,7 @@ export function LanguageSwitcher() {
 
   return (
     <nav aria-label={t("label")}>
-      <ul className="flex gap-2">
+      <ul className="flex items-center gap-1 rounded-full bg-card p-1 shadow-sm ring-1 ring-border">
         {routing.locales.map((locale) => {
           const isCurrent = locale === currentLocale;
           return (
@@ -25,10 +25,10 @@ export function LanguageSwitcher() {
                 lang={locale}
                 aria-current={isCurrent ? "true" : undefined}
                 className={cn(
-                  "inline-flex min-h-11 items-center rounded-full px-4 text-sm font-semibold transition-colors",
+                  "inline-flex min-h-11 items-center rounded-full px-4 text-sm font-bold transition-colors",
                   isCurrent
-                    ? "bg-blush text-ink"
-                    : "text-brand-green-dark hover:bg-blush/60",
+                    ? "bg-brand-green-dark text-white"
+                    : "text-ink hover:bg-blush",
                 )}
               >
                 {t(locale)}
