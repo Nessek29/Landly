@@ -1,0 +1,16 @@
+{
+  "Metadata": {
+    "title": "Landly",
+    "description": "A gentler welcome to Canada. Your first 90 days, organized."
+  },
+  "HomePage": {
+    "logoAlt": "Landly logo",
+    "tagline": "A gentler welcome to Canada. Your first 90 days, organized.",
+    "getStarted": "Get started"
+  },
+  "LanguageSwitcher": {
+    "label": "Choose language",
+    "en": "English",
+    "fr": "Français"
+  }
+}

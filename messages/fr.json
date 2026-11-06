@@ -1,0 +1,16 @@
+{
+  "Metadata": {
+    "title": "Landly",
+    "description": "Un accueil plus doux au Canada. Vos 90 premiers jours, bien organisés."
+  },
+  "HomePage": {
+    "logoAlt": "Logo de Landly",
+    "tagline": "Un accueil plus doux au Canada. Vos 90 premiers jours, bien organisés.",
+    "getStarted": "Commencer"
+  },
+  "LanguageSwitcher": {
+    "label": "Choisir la langue",
+    "en": "English",
+    "fr": "Français"
+  }
+}

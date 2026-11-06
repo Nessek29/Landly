@@ -1,0 +1,93 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+/*
+ * 1. Landly brand tokens.
+ * Each "--color-x" becomes Tailwind classes like bg-x, text-x, border-x.
+ */
+@theme {
+  --color-cream: #faf7f2; /* page background */
+  --color-ink: #1f2430; /* main text */
+  --color-brand-red: #a32a2a; /* headings and highlights */
+  --color-brand-green: #1e9e6a; /* icons and progress bars only (not text) */
+  --color-brand-green-dark: #0f7a52; /* green text and buttons */
+  --color-blush: #f3dedb; /* card tints */
+}
+
+/*
+ * 2. Semantic colours used by shadcn/ui components (bg-primary, bg-card, ...).
+ * They point at the brand tokens above so every component matches Landly.
+ */
+:root {
+  --radius: 1rem;
+  --background: var(--color-cream);
+  --foreground: var(--color-ink);
+  --card: #ffffff;
+  --card-foreground: var(--color-ink);
+  --popover: #ffffff;
+  --popover-foreground: var(--color-ink);
+  --primary: var(--color-brand-green-dark);
+  --primary-foreground: #ffffff;
+  --secondary: var(--color-blush);
+  --secondary-foreground: var(--color-ink);
+  --muted: var(--color-blush);
+  --muted-foreground: #4b5263;
+  --accent: var(--color-blush);
+  --accent-foreground: var(--color-ink);
+  --destructive: var(--color-brand-red);
+  --border: #e6ded3;
+  --input: #e6ded3;
+  --ring: var(--color-brand-green-dark); /* focus outline colour */
+}
+
+/* 3. Connect the semantic colours, fonts and radius to Tailwind. */
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  /* Font variables are created by next/font in src/app/[locale]/layout.tsx */
+  --font-sans: var(--font-noto-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-heading: var(--font-nunito), ui-sans-serif, system-ui, sans-serif;
+
+  --radius-sm: calc(var(--radius) * 0.5);
+  --radius-md: calc(var(--radius) * 0.75);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.5);
+  --radius-2xl: calc(var(--radius) * 2);
+}
+
+/* 4. Base styles for plain HTML elements. */
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background font-sans text-foreground antialiased;
+  }
+  h1,
+  h2,
+  h3 {
+    @apply font-heading font-bold text-brand-red;
+  }
+  /* A clear, high-contrast focus outline for keyboard users. */
+  :focus-visible {
+    @apply outline-3 outline-offset-2 outline-ring;
+  }
+}
